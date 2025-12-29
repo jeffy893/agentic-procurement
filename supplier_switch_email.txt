@@ -1,0 +1,14 @@
+Subject: Supplier Switch Proposal - SKU-5895-agS
+
+Dear R&D Department,
+
+I would like to propose a supplier switch for the item SKU-5895-agS, currently sourced from Baird Ltd at $422.22 per unit. With only 3 days remaining in our inventory, it is crucial to ensure a continuous supply of this item.
+
+I have identified a suitable substitute, SKU-1066-ZeP from Rangel-Rodriguez, which meets the identical technical specifications of {'density': 2.7, 'tensile_strength': 310, 'grade': '6061-T6'}. Remarkably, the price offered by Rangel-Rodriguez is $116.85 per unit, representing a substantial cost savings of 72.3%.
+
+By switching to Rangel-Rodriguez as our supplier for this item, we can maintain an uninterrupted supply chain while achieving significant cost reductions. I kindly request your prompt consideration of this proposal to ensure a seamless transition and capitalize on the considerable cost savings.
+
+Thank you for your attention to this matter.
+
+Best regards,
+Procurement Team
