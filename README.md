@@ -1,334 +1,227 @@
-# Autonomous Procurement System
+# Agentic Procurement System
 
-An AI-powered procurement automation system that monitors inventory levels, identifies substitute materials, and generates professional justification emails using AWS Bedrock and Claude AI.
+An intelligent procurement system that automates compliance tracking, supplier management, and R&D sample requests using CAS-based material identification and AI-powered decision making.
 
-## Architecture
+## 🎯 System Overview
 
-![Architecture Diagram](autonomous_procurement_system.png)
+This system demonstrates a complete procurement workflow with:
+- **CAS-based material identification** (Chemical Abstracts Service numbers)
+- **11-document compliance tracking** per material
+- **Multi-supplier price comparison** for identical materials
+- **Automated supplier portal simulation**
+- **AI-powered R&D sample requests** via AWS Bedrock
+- **Comprehensive reporting and analytics**
 
-The system consists of:
-- **EventBridge Scheduler**: Triggers daily inventory checks
-- **Lambda Function**: Core processing logic for inventory analysis and supplier evaluation
-- **DynamoDB**: Stores raw materials inventory with technical specifications
-- **Bedrock (Claude AI)**: Generates professional procurement emails and recommendations
+## 🚀 Quick Start
 
-## Features
+```bash
+# Generate fresh data and run full system
+python3 run_full_system.py
 
-- **Automated Inventory Monitoring**: Identifies items with low stock levels (< 5 days)
-- **Intelligent Substitute Detection**: Finds alternative suppliers with identical technical specifications
-- **AI-Powered Communication**: Generates professional emails highlighting cost savings and supply continuity
-- **Technical Specification Matching**: Ensures substitute materials meet exact requirements
-- **Cost Optimization**: Identifies significant price differences between suppliers
+# Individual components
+python3 generate_raw_materials.py      # Generate material database
+python3 compliance_checker.py          # Check compliance status
+python3 supplier_portal_sim.py         # Simulate document uploads
+python3 apples_to_apples_validator.py  # Compare suppliers
+```
 
-## Core Components
+## 📊 System Report Sample
 
-### 1. Raw Materials Data Generator (`generate_raw_materials.py`)
-Creates realistic inventory data with:
-- 50 materials with SKU, supplier, price, lead time, and days on hand
-- Technical specifications (density, tensile strength, grade)
-- 3 pairs of interchangeable parts from different suppliers
+```
+📊 AGENTIC PROCUREMENT SYSTEM REPORT
+Generated: 2025-12-29 17:18:42
+============================================================
 
-**Sample Raw Materials Data:**
+📈 INVENTORY OVERVIEW:
+• Total Materials: 50
+• Unique CAS Numbers: 11
+• Unique Suppliers: 50
+• Average Price: $217.85
+
+📋 COMPLIANCE STATUS:
+• Ready for R&D: 8 (16.0%)
+• Average Compliance Score: 6.4/11 documents
+• Materials Needing Documents: 42
+
+💰 COST ANALYSIS:
+• Price Range: $19.63 - $494.01
+• Materials with Multiple Suppliers: 11
+
+🎯 SYSTEM CAPABILITIES DEMONSTRATED:
+✅ CAS-based material identification
+✅ 11-document compliance tracking
+✅ Supplier portal simulation
+✅ R&D sample request automation
+✅ Price vs compliance analysis
+✅ Multi-supplier comparison
+```
+
+## 📋 Sample Raw Data Structure
+
 ```json
-[
-  {
-    "SKU": "SKU-5895-agS",
-    "SupplierName": "Baird Ltd",
-    "Price": 422.22,
-    "LeadTime": 6,
-    "DaysOnHand": 12,
-    "TechnicalSpecs": {
-      "density": 2.7,
-      "tensile_strength": 310,
-      "grade": "6061-T6"
-    }
+{
+  "cas_number": "56-81-5",
+  "inci_name": "Glycerin",
+  "SupplierName": "Lopez Inc",
+  "Price": 142.72,
+  "LeadTime": 23,
+  "DaysOnHand": 1,
+  "TechnicalSpecs": {
+    "density": 2.3,
+    "tensile_strength": 515,
+    "grade": "Sc19"
   },
-  {
-    "SKU": "SKU-1066-ZeP",
-    "SupplierName": "Rangel-Rodriguez",
-    "Price": 116.85,
-    "LeadTime": 20,
-    "DaysOnHand": 16,
-    "TechnicalSpecs": {
-      "density": 2.7,
-      "tensile_strength": 310,
-      "grade": "6061-T6"
-    }
-  },
-  {
-    "SKU": "SKU-6898-DmY",
-    "SupplierName": "Gibson-Middleton",
-    "Price": 224.24,
-    "LeadTime": 32,
-    "DaysOnHand": 1,
-    "TechnicalSpecs": {
-      "density": 7.02,
-      "tensile_strength": 476,
-      "grade": "Ps58"
-    }
+  "compliance_package": {
+    "sds": true,
+    "tech_drawing": true,
+    "non_gmo_cert": true,
+    "animal_testing_statement": true,
+    "allergen_statement": true,
+    "halal_cert": true,
+    "kosher_cert": true,
+    "organic_cert": true,
+    "iso_cert": true,
+    "coa": true,
+    "msds": true
   }
-]
+}
 ```
 
-### 2. Purchase Evaluation Logic (`evaluate_purchase.py`)
-Implements approval workflow:
-- **REJECTED**: Technical specs don't match
-- **APPROVED**: Specs match and price < $1000
-- **PENDING MANAGER**: Specs match but price ≥ $1000
-
-### 3. Claude AI Integration (`ask_claude.py`)
-Connects to AWS Bedrock for:
-- Natural language email generation
-- Professional procurement recommendations
-- Cost-benefit analysis
-
-### 4. Simulation Engine (`simulation.py`)
-Orchestrates the complete workflow:
-- Identifies low-stock items
-- Searches for suitable substitutes
-- Generates and stores justification emails
-
-### 5. Resilience Testing Suite
-Comprehensive audit and testing framework:
-- **Resilience Auditor** (`resilience_auditor.py`): Tests decision accuracy and substitute availability
-- **Compliance Validator** (`compliance_validator.py`): Validates regulatory and business rule adherence
-- **Stress Tester** (`stress_tester.py`): Simulates failure scenarios and edge cases
-- **Master Auditor** (`master_auditor.py`): Orchestrates all audits and generates comprehensive reports
-- **Visual Report Generator** (`visual_report_generator.py`): Creates interactive dashboards and charts
-- **HTML Report Generator** (`html_report_generator.py`): Generates web-friendly audit reports
-
-## Example Output
-
-The system generated this procurement recommendation:
+## 🔍 Apples-to-Apples Analysis Sample
 
 ```
-Subject: Supplier Switch Proposal - SKU-5895-agS
+🧪 CAS Number: 77-92-9
+📋 Material: Citric Acid
+================================================================================
+Supplier                  Price      Compliance   Status          Lead Time 
+--------------------------------------------------------------------------------
+Small, Campos and Gilbert $19.63     11/11       READY_FOR_R&D   59 days
+Jefferson Inc             $24.47     5/11       MISSING_DOCS    51 days
+Weaver-Watts              $29.13     11/11       READY_FOR_R&D   42 days
+King LLC                  $75.65     5/11       MISSING_DOCS    52 days
 
-Dear R&D Department,
-
-I would like to propose a supplier switch for the item SKU-5895-agS, currently sourced from Baird Ltd at $422.22 per unit. With only 3 days remaining in our inventory, it is crucial to ensure a continuous supply of this item.
-
-I have identified a suitable substitute, SKU-1066-ZeP from Rangel-Rodriguez, which meets the identical technical specifications of {'density': 2.7, 'tensile_strength': 310, 'grade': '6061-T6'}. Remarkably, the price offered by Rangel-Rodriguez is $116.85 per unit, representing a substantial cost savings of 72.3%.
-
-By switching to Rangel-Rodriguez as our supplier for this item, we can maintain an uninterrupted supply chain while achieving significant cost reductions. I kindly request your prompt consideration of this proposal to ensure a seamless transition and capitalize on the considerable cost savings.
-
-Thank you for your attention to this matter.
-
-Best regards,
-Procurement Team
+💡 Analysis:
+   💰 Cheapest: Small, Campos and Gilbert ($19.63) - 11/11 docs
+   📋 Most Compliant: Small, Campos and Gilbert (11/11 docs) - $19.63
 ```
 
-## Local Development Setup
+## 🏭 Supplier Portal Simulation
 
-### Prerequisites
+```
+🏭 Supplier Portal - Document Upload System
+==================================================
+📋 Auto-selected Material: Magnesium Hydroxide (1309-42-8)
+🏢 Supplier: Cooper LLC
+
+📊 Compliance Status: MISSING_DOCS
+📈 Score: 5/11 documents
+
+❌ Missing Documents (6):
+   • tech_drawing
+   • animal_testing_statement
+   • allergen_statement
+   • halal_cert
+   • organic_cert
+   • iso_cert
+
+📤 Auto-uploading: tech_drawing
+✅ Successfully uploaded: tech_drawing
+📊 Updated Status: MISSING_DOCS
+📈 Score: 6/11 documents
+```
+
+## 📧 AI-Generated Sample Request
+
+When materials reach full compliance (11/11 documents), the system automatically generates R&D sample requests via AWS Bedrock:
+
+```
+Subject: Sample Request for Lab Batch Testing - [INCI Name]
+
+Dear [Supplier Name],
+
+We are pleased to inform you that all 11 compliance documents for 
+[INCI Name] (CAS: [CAS Number]) have been successfully submitted 
+and approved.
+
+We would like to request a 100g sample for our Lab Batch testing 
+to proceed with the R&D evaluation process...
+```
+
+## 🎯 Key Features
+
+### 1. CAS-Based Material Identification
+- Uses Chemical Abstracts Service numbers as primary keys
+- Enables precise material matching across suppliers
+- Supports interchangeable parts with identical specifications
+
+### 2. 11-Document Compliance Tracking
+- **sds** - Safety Data Sheet
+- **tech_drawing** - Technical Drawing
+- **non_gmo_cert** - Non-GMO Certificate
+- **animal_testing_statement** - Animal Testing Statement
+- **allergen_statement** - Allergen Statement
+- **halal_cert** - Halal Certification
+- **kosher_cert** - Kosher Certification
+- **organic_cert** - Organic Certification
+- **iso_cert** - ISO Certification
+- **coa** - Certificate of Analysis
+- **msds** - Material Safety Data Sheet
+
+### 3. Multi-Supplier Analysis
+- Price vs compliance comparison
+- Lead time analysis
+- Best value identification
+- Trade-off calculations
+
+### 4. Automated Workflows
+- Document upload simulation
+- Compliance status tracking
+- R&D gate automation
+- Sample request generation
+
+## 📁 File Structure
+
+```
+agentic-procurement/
+├── run_full_system.py              # Complete system runner
+├── generate_raw_materials.py       # Data generation
+├── compliance_checker.py           # Compliance logic
+├── supplier_portal_sim.py          # Portal simulation
+├── apples_to_apples_validator.py   # Price/compliance analysis
+├── ask_claude.py                   # AWS Bedrock integration
+├── raw_materials.json              # Material database
+├── system_report.txt               # Generated report
+└── README.md                       # This file
+```
+
+## 🔧 Dependencies
+
 ```bash
-pip install faker boto3 diagrams matplotlib seaborn
-brew install graphviz  # macOS only
+pip install boto3 faker
 ```
 
-### Running the System
-```bash
-# Generate sample data
-python3 generate_raw_materials.py
+**For AWS Bedrock integration:**
+- AWS credentials configured
+- Bedrock access enabled
+- Anthropic use case form submitted
 
-# Test purchase evaluation
-python3 test_evaluate_purchase.py
+## 💡 Business Value
 
-# Run full simulation
-python3 simulation.py
+1. **Cost Optimization**: Identify cheapest suppliers with adequate compliance
+2. **Risk Mitigation**: Track document completeness before procurement
+3. **Process Automation**: Reduce manual compliance checking
+4. **Supplier Management**: Compare multiple options for identical materials
+5. **R&D Efficiency**: Automated sample requests when materials are ready
 
-# Generate architecture diagram
-python3 arch_diagram.py
+## 🚀 Next Steps
 
-# Run comprehensive resilience audit
-python3 master_auditor.py
+- Integrate with ERP systems
+- Add real-time supplier APIs
+- Implement ML-based price prediction
+- Expand compliance document types
+- Add regulatory requirement mapping
 
-# Generate visual reports
-python3 visual_report_generator.py
-python3 html_report_generator.py
-```
+---
 
-## Resilience Testing & Compliance
-
-The system includes comprehensive audit capabilities to ensure production readiness:
-
-### Audit Components
-- **Resilience Testing**: Validates decision accuracy, substitute availability, and system reliability
-- **Compliance Validation**: Ensures regulatory adherence and business rule compliance
-- **Stress Testing**: Simulates failure scenarios, data corruption, and extreme conditions
-- **Visual Reporting**: Generates executive dashboards and interactive reports
-
-### Sample Audit Results
-```
-Overall Health Score: 69/100
-Risk Level: HIGH
-Recommendation: Immediate attention required
-
-Component Scores:
-  Resilience: 50/100
-  Compliance: 100/100
-  Stress Resistance: 57/100
-
-Key Findings:
-  - 0% substitute coverage for low-stock items
-  - 100% specification matching accuracy
-  - 2 stress test failures requiring attention
-```
-
-### Generated Reports
-- `master_audit_report.json`: Comprehensive audit data
-- `audit_dashboard.png`: Visual dashboard with charts and gauges
-- `audit_report.html`: Interactive web-based report
-
-![Audit Dashboard](audit_dashboard.png)
-
-## AWS Deployment
-
-### Infrastructure Requirements
-
-1. **DynamoDB Table**: `raw-materials-inventory`
-   - Partition Key: `SKU` (String)
-   - Attributes: `SupplierName`, `Price`, `LeadTime`, `DaysOnHand`, `TechnicalSpecs`
-
-2. **Lambda Function**: `procurement-agent`
-   - Runtime: Python 3.9+
-   - Memory: 512 MB
-   - Timeout: 5 minutes
-   - Environment Variables:
-     - `DYNAMODB_TABLE`: `raw-materials-inventory`
-     - `BEDROCK_MODEL_ID`: `anthropic.claude-3-sonnet-20240229-v1:0`
-
-3. **EventBridge Rule**: `daily-procurement-check`
-   - Schedule: `rate(1 day)` or `cron(0 9 * * ? *)` (9 AM daily)
-   - Target: Lambda function
-
-4. **IAM Role**: `procurement-lambda-role`
-   ```json
-   {
-     "Version": "2012-10-17",
-     "Statement": [
-       {
-         "Effect": "Allow",
-         "Action": [
-           "dynamodb:Scan",
-           "dynamodb:GetItem",
-           "dynamodb:Query"
-         ],
-         "Resource": "arn:aws:dynamodb:*:*:table/raw-materials-inventory"
-       },
-       {
-         "Effect": "Allow",
-         "Action": [
-           "bedrock:InvokeModel"
-         ],
-         "Resource": "arn:aws:bedrock:*::foundation-model/anthropic.claude-3-sonnet-20240229-v1:0"
-       },
-       {
-         "Effect": "Allow",
-         "Action": [
-           "ses:SendEmail",
-           "sns:Publish"
-         ],
-         "Resource": "*"
-       }
-     ]
-   }
-   ```
-
-### Deployment Steps
-
-1. **Create DynamoDB Table**:
-   ```bash
-   aws dynamodb create-table \
-     --table-name raw-materials-inventory \
-     --attribute-definitions AttributeName=SKU,AttributeType=S \
-     --key-schema AttributeName=SKU,KeyType=HASH \
-     --billing-mode PAY_PER_REQUEST
-   ```
-
-2. **Load Sample Data**:
-   ```python
-   import boto3
-   import json
-   
-   dynamodb = boto3.resource('dynamodb')
-   table = dynamodb.Table('raw-materials-inventory')
-   
-   with open('raw_materials.json', 'r') as f:
-       materials = json.load(f)
-   
-   for item in materials:
-       table.put_item(Item=item)
-   ```
-
-3. **Deploy Lambda Function**:
-   - Package the code with dependencies
-   - Upload to Lambda with the IAM role
-   - Configure environment variables
-
-4. **Create EventBridge Rule**:
-   ```bash
-   aws events put-rule \
-     --name daily-procurement-check \
-     --schedule-expression "rate(1 day)"
-   
-   aws events put-targets \
-     --rule daily-procurement-check \
-     --targets "Id"="1","Arn"="arn:aws:lambda:region:account:function:procurement-agent"
-   ```
-
-### Lambda Function Code Structure
-
-```python
-import boto3
-import json
-from datetime import datetime
-
-def lambda_handler(event, context):
-    # Initialize AWS clients
-    dynamodb = boto3.resource('dynamodb')
-    bedrock = boto3.client('bedrock-runtime')
-    
-    # Scan for low-stock items
-    low_stock_items = scan_inventory_for_low_stock()
-    
-    # Process each low-stock item
-    for item in low_stock_items:
-        substitute = find_substitute(item)
-        if substitute:
-            email = generate_email_with_bedrock(item, substitute)
-            send_notification(email)
-    
-    return {
-        'statusCode': 200,
-        'body': json.dumps(f'Processed {len(low_stock_items)} items')
-    }
-```
-
-## Benefits
-
-- **Cost Savings**: Automatically identifies cheaper alternatives (up to 72% savings in examples)
-- **Supply Continuity**: Prevents stockouts through proactive monitoring
-- **Compliance**: Ensures technical specifications are maintained
-- **Efficiency**: Reduces manual procurement research time
-- **Scalability**: Handles large inventories with minimal overhead
-- **Audit Trail**: Maintains records of all recommendations and decisions
-- **Resilience Testing**: Comprehensive audit framework ensures production readiness
-- **Visual Reporting**: Executive dashboards provide actionable insights
-- **Predictive Compliance**: Identifies issues before they become violations
-
-## Security Considerations
-
-- All AWS resources use least-privilege IAM policies
-- Sensitive data encrypted at rest in DynamoDB
-- API calls to Bedrock are logged via CloudTrail
-- Email notifications can be configured with encryption
-
-## Monitoring & Alerting
-
-- CloudWatch metrics for Lambda execution
-- DynamoDB performance monitoring
-- Bedrock usage and cost tracking
-- SNS notifications for critical inventory levels
-
-This autonomous system transforms procurement from reactive to proactive, ensuring optimal supplier relationships while maintaining technical compliance and cost efficiency.
+**Generated by Agentic Procurement System v2.0**  
+*Demonstrating AI-powered procurement automation*
