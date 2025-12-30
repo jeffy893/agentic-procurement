@@ -1,0 +1,602 @@
+[
+  {
+    "SKU": "SKU-8899-Pkd",
+    "SupplierName": "Stevens-Dixon",
+    "Price": 478.3,
+    "LeadTime": 41,
+    "DaysOnHand": 15,
+    "TechnicalSpecs": {
+      "density": 6.74,
+      "tensile_strength": 302,
+      "grade": "cV30"
+    }
+  },
+  {
+    "SKU": "SKU-6898-DmY",
+    "SupplierName": "Gibson-Middleton",
+    "Price": 224.24,
+    "LeadTime": 32,
+    "DaysOnHand": 1,
+    "TechnicalSpecs": {
+      "density": 7.02,
+      "tensile_strength": 476,
+      "grade": "Ps58"
+    }
+  },
+  {
+    "SKU": "SKU-7270-Awz",
+    "SupplierName": "Harper, Tran and Smith",
+    "Price": 147.43,
+    "LeadTime": 15,
+    "DaysOnHand": 2,
+    "TechnicalSpecs": {
+      "density": 6.03,
+      "tensile_strength": 181,
+      "grade": "el10"
+    }
+  },
+  {
+    "SKU": "SKU-4999-BSw",
+    "SupplierName": "Thompson-Wilson",
+    "Price": 36.48,
+    "LeadTime": 11,
+    "DaysOnHand": 1,
+    "TechnicalSpecs": {
+      "density": 6.68,
+      "tensile_strength": 471,
+      "grade": "OU47"
+    }
+  },
+  {
+    "SKU": "SKU-1607-Trq",
+    "SupplierName": "Miller, Kelly and Barnett",
+    "Price": 483.27,
+    "LeadTime": 36,
+    "DaysOnHand": 25,
+    "TechnicalSpecs": {
+      "density": 9.61,
+      "tensile_strength": 610,
+      "grade": "Fz89"
+    }
+  },
+  {
+    "SKU": "SKU-2808-QXa",
+    "SupplierName": "Mason LLC",
+    "Price": 245.81,
+    "LeadTime": 56,
+    "DaysOnHand": 4,
+    "TechnicalSpecs": {
+      "density": 7.17,
+      "tensile_strength": 569,
+      "grade": "me53"
+    }
+  },
+  {
+    "SKU": "SKU-1490-gFH",
+    "SupplierName": "Cervantes-Mcclain",
+    "Price": 78.15,
+    "LeadTime": 52,
+    "DaysOnHand": 26,
+    "TechnicalSpecs": {
+      "density": 9.63,
+      "tensile_strength": 364,
+      "grade": "im25"
+    }
+  },
+  {
+    "SKU": "SKU-1499-TRE",
+    "SupplierName": "Mendez, Jenkins and Shields",
+    "Price": 297.3,
+    "LeadTime": 15,
+    "DaysOnHand": 10,
+    "TechnicalSpecs": {
+      "density": 8.83,
+      "tensile_strength": 272,
+      "grade": "Kx25"
+    }
+  },
+  {
+    "SKU": "SKU-3878-Gco",
+    "SupplierName": "Bishop, Ware and Parrish",
+    "Price": 57.5,
+    "LeadTime": 29,
+    "DaysOnHand": 12,
+    "TechnicalSpecs": {
+      "density": 2.41,
+      "tensile_strength": 668,
+      "grade": "gr96"
+    }
+  },
+  {
+    "SKU": "SKU-3750-PFm",
+    "SupplierName": "Coleman, Robinson and Jackson",
+    "Price": 457.79,
+    "LeadTime": 10,
+    "DaysOnHand": 23,
+    "TechnicalSpecs": {
+      "density": 7.85,
+      "tensile_strength": 400,
+      "grade": "A36"
+    }
+  },
+  {
+    "SKU": "SKU-0313-WGy",
+    "SupplierName": "Smith-Price",
+    "Price": 266.71,
+    "LeadTime": 16,
+    "DaysOnHand": 28,
+    "TechnicalSpecs": {
+      "density": 4.19,
+      "tensile_strength": 135,
+      "grade": "iu02"
+    }
+  },
+  {
+    "SKU": "SKU-4305-avF",
+    "SupplierName": "Lawson, Bryant and Smith",
+    "Price": 224.18,
+    "LeadTime": 23,
+    "DaysOnHand": 18,
+    "TechnicalSpecs": {
+      "density": 1.79,
+      "tensile_strength": 245,
+      "grade": "yw65"
+    }
+  },
+  {
+    "SKU": "SKU-7789-edG",
+    "SupplierName": "Ingram, Richard and Hoffman",
+    "Price": 42.91,
+    "LeadTime": 37,
+    "DaysOnHand": 11,
+    "TechnicalSpecs": {
+      "density": 0.96,
+      "tensile_strength": 341,
+      "grade": "fC56"
+    }
+  },
+  {
+    "SKU": "SKU-5488-eGD",
+    "SupplierName": "Rivera LLC",
+    "Price": 334.32,
+    "LeadTime": 5,
+    "DaysOnHand": 12,
+    "TechnicalSpecs": {
+      "density": 8.46,
+      "tensile_strength": 478,
+      "grade": "HD05"
+    }
+  },
+  {
+    "SKU": "SKU-5895-agS",
+    "SupplierName": "Baird Ltd",
+    "Price": 422.22,
+    "LeadTime": 6,
+    "DaysOnHand": 12,
+    "TechnicalSpecs": {
+      "density": 2.7,
+      "tensile_strength": 310,
+      "grade": "6061-T6"
+    }
+  },
+  {
+    "SKU": "SKU-5171-LCQ",
+    "SupplierName": "Jones, Rice and Burns",
+    "Price": 108.26,
+    "LeadTime": 5,
+    "DaysOnHand": 5,
+    "TechnicalSpecs": {
+      "density": 8.41,
+      "tensile_strength": 247,
+      "grade": "Qp01"
+    }
+  },
+  {
+    "SKU": "SKU-3715-plX",
+    "SupplierName": "Bullock-Graham",
+    "Price": 386.56,
+    "LeadTime": 17,
+    "DaysOnHand": 8,
+    "TechnicalSpecs": {
+      "density": 1.61,
+      "tensile_strength": 507,
+      "grade": "rL74"
+    }
+  },
+  {
+    "SKU": "SKU-7685-qUU",
+    "SupplierName": "Miller, Barker and Cobb",
+    "Price": 313.88,
+    "LeadTime": 26,
+    "DaysOnHand": 12,
+    "TechnicalSpecs": {
+      "density": 3.44,
+      "tensile_strength": 636,
+      "grade": "cr40"
+    }
+  },
+  {
+    "SKU": "SKU-5978-Aam",
+    "SupplierName": "Gonzalez-Baker",
+    "Price": 62.58,
+    "LeadTime": 55,
+    "DaysOnHand": 19,
+    "TechnicalSpecs": {
+      "density": 1.2,
+      "tensile_strength": 50,
+      "grade": "HDPE"
+    }
+  },
+  {
+    "SKU": "SKU-3465-smN",
+    "SupplierName": "Jackson-Simmons",
+    "Price": 21.65,
+    "LeadTime": 16,
+    "DaysOnHand": 26,
+    "TechnicalSpecs": {
+      "density": 1.2,
+      "tensile_strength": 50,
+      "grade": "HDPE"
+    }
+  },
+  {
+    "SKU": "SKU-5254-nUk",
+    "SupplierName": "Taylor Inc",
+    "Price": 66.1,
+    "LeadTime": 13,
+    "DaysOnHand": 21,
+    "TechnicalSpecs": {
+      "density": 8.35,
+      "tensile_strength": 299,
+      "grade": "Aj34"
+    }
+  },
+  {
+    "SKU": "SKU-7631-EWl",
+    "SupplierName": "Taylor-Hill",
+    "Price": 261.88,
+    "LeadTime": 19,
+    "DaysOnHand": 11,
+    "TechnicalSpecs": {
+      "density": 8.35,
+      "tensile_strength": 226,
+      "grade": "kP57"
+    }
+  },
+  {
+    "SKU": "SKU-6463-oqE",
+    "SupplierName": "Gill, Henderson and Tate",
+    "Price": 242.69,
+    "LeadTime": 38,
+    "DaysOnHand": 16,
+    "TechnicalSpecs": {
+      "density": 6.17,
+      "tensile_strength": 267,
+      "grade": "XK47"
+    }
+  },
+  {
+    "SKU": "SKU-5057-Dcp",
+    "SupplierName": "Johnston-Brooks",
+    "Price": 202.13,
+    "LeadTime": 40,
+    "DaysOnHand": 4,
+    "TechnicalSpecs": {
+      "density": 4.01,
+      "tensile_strength": 244,
+      "grade": "tC53"
+    }
+  },
+  {
+    "SKU": "SKU-9975-tHi",
+    "SupplierName": "Hopkins, Watson and Estrada",
+    "Price": 336.45,
+    "LeadTime": 30,
+    "DaysOnHand": 18,
+    "TechnicalSpecs": {
+      "density": 9.38,
+      "tensile_strength": 427,
+      "grade": "Hz91"
+    }
+  },
+  {
+    "SKU": "SKU-7576-jdB",
+    "SupplierName": "Henry, Gardner and Cunningham",
+    "Price": 445.98,
+    "LeadTime": 6,
+    "DaysOnHand": 20,
+    "TechnicalSpecs": {
+      "density": 5.79,
+      "tensile_strength": 153,
+      "grade": "He24"
+    }
+  },
+  {
+    "SKU": "SKU-0948-Die",
+    "SupplierName": "Gibson, Kennedy and Hodges",
+    "Price": 368.76,
+    "LeadTime": 23,
+    "DaysOnHand": 30,
+    "TechnicalSpecs": {
+      "density": 6.1,
+      "tensile_strength": 117,
+      "grade": "Vt28"
+    }
+  },
+  {
+    "SKU": "SKU-3175-JIi",
+    "SupplierName": "Fowler-Knight",
+    "Price": 109.46,
+    "LeadTime": 50,
+    "DaysOnHand": 28,
+    "TechnicalSpecs": {
+      "density": 4.74,
+      "tensile_strength": 286,
+      "grade": "xT61"
+    }
+  },
+  {
+    "SKU": "SKU-1066-ZeP",
+    "SupplierName": "Rangel-Rodriguez",
+    "Price": 116.85,
+    "LeadTime": 20,
+    "DaysOnHand": 16,
+    "TechnicalSpecs": {
+      "density": 2.7,
+      "tensile_strength": 310,
+      "grade": "6061-T6"
+    }
+  },
+  {
+    "SKU": "SKU-8885-nRy",
+    "SupplierName": "Cantu-Cameron",
+    "Price": 479.92,
+    "LeadTime": 34,
+    "DaysOnHand": 25,
+    "TechnicalSpecs": {
+      "density": 3.67,
+      "tensile_strength": 485,
+      "grade": "fP06"
+    }
+  },
+  {
+    "SKU": "SKU-3072-Tlm",
+    "SupplierName": "Stuart-Garcia",
+    "Price": 462.37,
+    "LeadTime": 39,
+    "DaysOnHand": 19,
+    "TechnicalSpecs": {
+      "density": 5.45,
+      "tensile_strength": 686,
+      "grade": "qB82"
+    }
+  },
+  {
+    "SKU": "SKU-7057-TXC",
+    "SupplierName": "Curry, Diaz and Vasquez",
+    "Price": 432.38,
+    "LeadTime": 10,
+    "DaysOnHand": 14,
+    "TechnicalSpecs": {
+      "density": 4.07,
+      "tensile_strength": 726,
+      "grade": "tM26"
+    }
+  },
+  {
+    "SKU": "SKU-3437-xlU",
+    "SupplierName": "Cooper, Bailey and Arnold",
+    "Price": 41.68,
+    "LeadTime": 20,
+    "DaysOnHand": 27,
+    "TechnicalSpecs": {
+      "density": 6.34,
+      "tensile_strength": 428,
+      "grade": "mZ07"
+    }
+  },
+  {
+    "SKU": "SKU-0520-MHq",
+    "SupplierName": "Miller-Oconnell",
+    "Price": 478.45,
+    "LeadTime": 47,
+    "DaysOnHand": 24,
+    "TechnicalSpecs": {
+      "density": 1.34,
+      "tensile_strength": 757,
+      "grade": "pI36"
+    }
+  },
+  {
+    "SKU": "SKU-3621-lxp",
+    "SupplierName": "Garcia-Duncan",
+    "Price": 123.48,
+    "LeadTime": 43,
+    "DaysOnHand": 15,
+    "TechnicalSpecs": {
+      "density": 9.76,
+      "tensile_strength": 298,
+      "grade": "cq06"
+    }
+  },
+  {
+    "SKU": "SKU-3414-Tct",
+    "SupplierName": "Thomas PLC",
+    "Price": 14.09,
+    "LeadTime": 27,
+    "DaysOnHand": 25,
+    "TechnicalSpecs": {
+      "density": 6.0,
+      "tensile_strength": 386,
+      "grade": "Rb80"
+    }
+  },
+  {
+    "SKU": "SKU-4779-FFB",
+    "SupplierName": "Parrish-Scott",
+    "Price": 152.37,
+    "LeadTime": 36,
+    "DaysOnHand": 9,
+    "TechnicalSpecs": {
+      "density": 1.87,
+      "tensile_strength": 187,
+      "grade": "Mc53"
+    }
+  },
+  {
+    "SKU": "SKU-7201-pYe",
+    "SupplierName": "Johnson-Erickson",
+    "Price": 319.21,
+    "LeadTime": 46,
+    "DaysOnHand": 1,
+    "TechnicalSpecs": {
+      "density": 2.56,
+      "tensile_strength": 785,
+      "grade": "VO29"
+    }
+  },
+  {
+    "SKU": "SKU-7153-JNW",
+    "SupplierName": "Townsend PLC",
+    "Price": 79.89,
+    "LeadTime": 36,
+    "DaysOnHand": 2,
+    "TechnicalSpecs": {
+      "density": 9.03,
+      "tensile_strength": 60,
+      "grade": "bE33"
+    }
+  },
+  {
+    "SKU": "SKU-8281-NPx",
+    "SupplierName": "Martinez-Andrade",
+    "Price": 482.04,
+    "LeadTime": 17,
+    "DaysOnHand": 23,
+    "TechnicalSpecs": {
+      "density": 2.78,
+      "tensile_strength": 186,
+      "grade": "sq17"
+    }
+  },
+  {
+    "SKU": "SKU-8360-IvH",
+    "SupplierName": "Johnson Group",
+    "Price": 250.61,
+    "LeadTime": 50,
+    "DaysOnHand": 26,
+    "TechnicalSpecs": {
+      "density": 9.09,
+      "tensile_strength": 71,
+      "grade": "sB60"
+    }
+  },
+  {
+    "SKU": "SKU-4278-lzs",
+    "SupplierName": "Johnson-Dickson",
+    "Price": 111.34,
+    "LeadTime": 56,
+    "DaysOnHand": 4,
+    "TechnicalSpecs": {
+      "density": 7.78,
+      "tensile_strength": 786,
+      "grade": "cx78"
+    }
+  },
+  {
+    "SKU": "SKU-3608-mup",
+    "SupplierName": "Flores Ltd",
+    "Price": 35.05,
+    "LeadTime": 10,
+    "DaysOnHand": 23,
+    "TechnicalSpecs": {
+      "density": 3.51,
+      "tensile_strength": 520,
+      "grade": "VM57"
+    }
+  },
+  {
+    "SKU": "SKU-5217-MvS",
+    "SupplierName": "Taylor and Sons",
+    "Price": 60.14,
+    "LeadTime": 5,
+    "DaysOnHand": 14,
+    "TechnicalSpecs": {
+      "density": 4.44,
+      "tensile_strength": 172,
+      "grade": "ZX88"
+    }
+  },
+  {
+    "SKU": "SKU-9541-ofU",
+    "SupplierName": "Armstrong PLC",
+    "Price": 19.01,
+    "LeadTime": 15,
+    "DaysOnHand": 2,
+    "TechnicalSpecs": {
+      "density": 7.92,
+      "tensile_strength": 576,
+      "grade": "qS67"
+    }
+  },
+  {
+    "SKU": "SKU-7376-eWn",
+    "SupplierName": "Chan-Hansen",
+    "Price": 297.01,
+    "LeadTime": 7,
+    "DaysOnHand": 14,
+    "TechnicalSpecs": {
+      "density": 4.94,
+      "tensile_strength": 392,
+      "grade": "qW36"
+    }
+  },
+  {
+    "SKU": "SKU-7680-mgG",
+    "SupplierName": "Hughes, Mills and Snyder",
+    "Price": 461.38,
+    "LeadTime": 41,
+    "DaysOnHand": 3,
+    "TechnicalSpecs": {
+      "density": 4.66,
+      "tensile_strength": 577,
+      "grade": "kF53"
+    }
+  },
+  {
+    "SKU": "SKU-2095-rjq",
+    "SupplierName": "Sanchez Group",
+    "Price": 177.32,
+    "LeadTime": 17,
+    "DaysOnHand": 24,
+    "TechnicalSpecs": {
+      "density": 3.12,
+      "tensile_strength": 523,
+      "grade": "ec98"
+    }
+  },
+  {
+    "SKU": "SKU-8022-WrA",
+    "SupplierName": "David-Mcdaniel",
+    "Price": 476.12,
+    "LeadTime": 46,
+    "DaysOnHand": 26,
+    "TechnicalSpecs": {
+      "density": 5.11,
+      "tensile_strength": 344,
+      "grade": "Wp27"
+    }
+  },
+  {
+    "SKU": "SKU-4733-idp",
+    "SupplierName": "Underwood-Bradshaw",
+    "Price": 373.41,
+    "LeadTime": 51,
+    "DaysOnHand": 9,
+    "TechnicalSpecs": {
+      "density": 7.85,
+      "tensile_strength": 400,
+      "grade": "A36"
+    }
+  }
+]

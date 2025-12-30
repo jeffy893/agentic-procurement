@@ -1,0 +1,16 @@
+ID,Task Name,Duration,Start Day,Predecessors,Resource_Names
+1,PHASE 1: LOCAL DATA & LOGIC (The Lab),1 day,Fri PM,,User
+2,Environment Setup (VS Code + Boto3),1 hr,Fri PM,,User
+3,Create Synthetic Data (Local JSON),2 hrs,Fri PM,2,Amazon Q
+4,Develop 'Governance' Logic (Local),2 hrs,Fri PM,3,Amazon Q
+5,PHASE 2: CONNECTING THE BRAIN (Bedrock),1 day,Sat,,User
+6,Configure Local AWS Credentials,1 hr,Sat,4,User
+7,Build 'The Bridge' (Boto3 -> Bedrock),2 hrs,Sat,6,Amazon Q
+8,Agent Scenario: The Substitute Search,3 hrs,Sat,7,Amazon Q
+9,PHASE 3: CLOUD DEPLOYMENT & DOCS,1 day,Sun,,User
+10,Refactor for Lambda (The Handler),2 hrs,Sun,8,Amazon Q
+11,Create IAM Roles (The Keys),1 hr,Sun,10,Amazon Q
+12,Deploy via VS Code,1 hr,Sun,11,Amazon Q
+13,Final Simulation Run,2 hrs,Sun,12,User
+14,Generate Architecture Diagram (Python),1 hr,Sun,13,Amazon Q
+15,Git Backup & README,1 hr,Sun,14,Amazon Q

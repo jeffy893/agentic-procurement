@@ -1,0 +1,164 @@
+{
+  "audit_timestamp": "2025-12-26T19:20:26.440660",
+  "overall_health_score": 69.0,
+  "risk_level": "HIGH",
+  "recommendation": "Immediate attention required - multiple critical issues detected",
+  "component_scores": {
+    "resilience": 50.0,
+    "compliance": 100,
+    "stress_resistance": 57.14285714285714
+  },
+  "detailed_reports": {
+    "resilience": {
+      "timestamp": "2025-12-26T19:20:26.439338",
+      "spec_matching": {
+        "accuracy": 1.0,
+        "total_tests": 1225,
+        "correct": 1225
+      },
+      "price_compliance": [],
+      "stock_analysis": {
+        "total_items": 50,
+        "low_stock_count": 10,
+        "critical_stock_count": 3,
+        "low_stock_percentage": 20.0,
+        "critical_items": [
+          "SKU-6898-DmY",
+          "SKU-4999-BSw",
+          "SKU-7201-pYe"
+        ]
+      },
+      "substitute_analysis": {
+        "substitutes_found": 0,
+        "items_without_substitutes": [
+          "SKU-6898-DmY",
+          "SKU-7270-Awz",
+          "SKU-4999-BSw",
+          "SKU-2808-QXa",
+          "SKU-5057-Dcp",
+          "SKU-7201-pYe",
+          "SKU-7153-JNW",
+          "SKU-4278-lzs",
+          "SKU-9541-ofU",
+          "SKU-7680-mgG"
+        ],
+        "substitute_coverage": 0.0
+      },
+      "compliance_violations": [],
+      "resilience_score": 50.0
+    },
+    "compliance": {
+      "timestamp": "2025-12-26T19:20:26.439933",
+      "compliance_score": 100,
+      "total_violations": 0,
+      "total_warnings": 0,
+      "violations": [],
+      "warnings": [],
+      "summary": {
+        "data_integrity": 0,
+        "business_rules": 0,
+        "decision_logic": 0,
+        "audit_trail": 0
+      }
+    },
+    "stress_test": {
+      "timestamp": "2025-12-26T19:20:26.439938",
+      "data_corruption_tests": [
+        {
+          "test": "missing_price",
+          "status": "failed",
+          "error": "Should have thrown error"
+        },
+        {
+          "test": "invalid_price_type",
+          "status": "failed",
+          "error": "Should have thrown error"
+        }
+      ],
+      "extreme_value_tests": [
+        {
+          "test": "extreme_high_price",
+          "status": "passed",
+          "decision": "REJECTED: Specs Mismatch",
+          "expected": "PENDING MANAGER"
+        },
+        {
+          "test": "negative_inventory",
+          "status": "warning",
+          "value": -1,
+          "note": "Negative inventory detected"
+        }
+      ],
+      "concurrent_decision_tests": [
+        {
+          "test": "decision_consistency",
+          "status": "passed",
+          "decisions": [
+            "REJECTED: Specs Mismatch",
+            "REJECTED: Specs Mismatch",
+            "REJECTED: Specs Mismatch",
+            "REJECTED: Specs Mismatch",
+            "REJECTED: Specs Mismatch"
+          ]
+        }
+      ],
+      "memory_usage_test": {
+        "test": "memory_usage",
+        "dataset_size": 5000,
+        "initial_memory": 40056,
+        "final_memory": 40056,
+        "low_stock_processed": 1000,
+        "status": "passed"
+      },
+      "edge_case_tests": [
+        {
+          "test": "empty_tech_specs",
+          "status": "passed",
+          "decision": "REJECTED: Specs Mismatch"
+        },
+        {
+          "test": "identical_items",
+          "status": "passed",
+          "decision": "APPROVED"
+        }
+      ],
+      "failure_scenarios": [
+        {
+          "scenario": "supply_chain_crisis",
+          "low_stock_items": 50,
+          "total_items": 50,
+          "crisis_level": "critical"
+        },
+        {
+          "scenario": "no_substitutes_available",
+          "items_without_substitutes": 10,
+          "risk_level": "high"
+        }
+      ],
+      "resilience_percentage": 57.14285714285714
+    }
+  },
+  "critical_findings": [
+    {
+      "category": "resilience",
+      "severity": "high",
+      "issue": "Low resilience score: 50.0/100",
+      "impact": "Agent may make incorrect procurement decisions"
+    },
+    {
+      "category": "stress_resistance",
+      "severity": "medium",
+      "issue": "2 stress test failures",
+      "impact": "Agent may fail under adverse conditions"
+    }
+  ],
+  "audit_summary": {
+    "total_items_audited": 1225,
+    "low_stock_items": 10,
+    "substitute_coverage": "0.0%",
+    "compliance_violations": 0,
+    "stress_test_pass_rate": "57.1%",
+    "audit_duration": "< 1 minute",
+    "next_audit_recommended": "30 days"
+  }
+}
