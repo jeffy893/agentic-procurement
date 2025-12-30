@@ -1,21 +1,21 @@
 
 📊 AGENTIC PROCUREMENT SYSTEM REPORT
-Generated: 2025-12-29 17:18:42
+Generated: 2025-12-29 17:25:45
 ============================================================
 
 📈 INVENTORY OVERVIEW:
 • Total Materials: 50
 • Unique CAS Numbers: 11
 • Unique Suppliers: 50
-• Average Price: $217.85
+• Average Price: $235.23
 
 📋 COMPLIANCE STATUS:
-• Ready for R&D: 8 (16.0%)
-• Average Compliance Score: 6.4/11 documents
-• Materials Needing Documents: 42
+• Ready for R&D: 6 (12.0%)
+• Average Compliance Score: 6.1/11 documents
+• Materials Needing Documents: 44
 
 💰 COST ANALYSIS:
-• Price Range: $19.63 - $494.01
+• Price Range: $11.72 - $486.65
 • Materials with Multiple Suppliers: 11
 
 🎯 SYSTEM CAPABILITIES DEMONSTRATED:

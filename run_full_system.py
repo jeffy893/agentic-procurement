@@ -116,14 +116,28 @@ def main():
     # Step 5: Generate summary report
     generate_summary_report()
     
+    # Step 6: Generate dashboard
+    print("\n" + "=" * 60)
+    print("📊 Generating Dashboard...")
+    print("=" * 60)
+    
+    try:
+        from dashboard_generator import main as generate_dashboard
+        generate_dashboard()
+    except Exception as e:
+        print(f"❌ Dashboard generation failed: {e}")
+    
     print("\n" + "=" * 60)
     print("🎉 FULL SYSTEM REPORT GENERATED!")
     print("=" * 60)
     print("📁 Generated Files:")
     print("   • raw_materials.json - Material database")
     print("   • system_report.txt - Summary report")
+    print("   • dashboard.png - Visual dashboard")
+    print("   • dashboard.html - Interactive dashboard")
     print("   • sample_request_email.txt - R&D sample request")
     print("   • All compliance and validation outputs")
+    print("\n🔗 Dashboard available at: dashboard.html")
 
 if __name__ == "__main__":
     main()

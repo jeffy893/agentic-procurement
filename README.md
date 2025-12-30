@@ -2,6 +2,8 @@
 
 An intelligent procurement system that automates compliance tracking, supplier management, and R&D sample requests using CAS-based material identification and AI-powered decision making.
 
+![Dashboard](dashboard.png)
+
 ## 🎯 System Overview
 
 This system demonstrates a complete procurement workflow with:

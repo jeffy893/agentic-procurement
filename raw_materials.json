@@ -1,747 +1,45 @@
 [
   {
-    "cas_number": "1309-42-8",
-    "inci_name": "Magnesium Hydroxide",
-    "SupplierName": "Cooper LLC",
-    "Price": 197.89,
-    "LeadTime": 9,
-    "DaysOnHand": 13,
+    "cas_number": "56-81-5",
+    "inci_name": "Glycerin",
+    "SupplierName": "Leonard, Oneal and Maldonado",
+    "Price": 190.96,
+    "LeadTime": 29,
+    "DaysOnHand": 2,
     "TechnicalSpecs": {
-      "density": 6.76,
-      "tensile_strength": 158,
-      "grade": "as81"
+      "density": 3.25,
+      "tensile_strength": 538,
+      "grade": "xi65"
     },
     "compliance_package": {
       "sds": true,
       "tech_drawing": true,
       "non_gmo_cert": true,
-      "animal_testing_statement": false,
-      "allergen_statement": false,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
       "halal_cert": false,
-      "kosher_cert": true,
+      "kosher_cert": false,
       "organic_cert": false,
       "iso_cert": false,
-      "coa": true,
-      "msds": true
+      "coa": false,
+      "msds": false
     }
   },
   {
     "cas_number": "64-17-5",
     "inci_name": "Ethanol",
-    "SupplierName": "Sanders-Mathews",
-    "Price": 188.65,
-    "LeadTime": 39,
-    "DaysOnHand": 3,
-    "TechnicalSpecs": {
-      "density": 6.59,
-      "tensile_strength": 129,
-      "grade": "Jn09"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": false,
-      "non_gmo_cert": false,
-      "animal_testing_statement": false,
-      "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": false,
-      "organic_cert": false,
-      "iso_cert": false,
-      "coa": false,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "77-92-9",
-    "inci_name": "Citric Acid",
-    "SupplierName": "Green and Sons",
-    "Price": 232.27,
-    "LeadTime": 27,
-    "DaysOnHand": 14,
-    "TechnicalSpecs": {
-      "density": 2.55,
-      "tensile_strength": 148,
-      "grade": "Vo76"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": true,
-      "non_gmo_cert": false,
-      "animal_testing_statement": true,
-      "allergen_statement": false,
-      "halal_cert": false,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": false,
-      "coa": false,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "122-99-6",
-    "inci_name": "Phenoxyethanol",
-    "SupplierName": "Hatfield-Brown",
-    "Price": 494.01,
-    "LeadTime": 45,
-    "DaysOnHand": 18,
-    "TechnicalSpecs": {
-      "density": 1.4,
-      "tensile_strength": 464,
-      "grade": "yc90"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": false,
-      "animal_testing_statement": false,
-      "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": false,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "56-81-5",
-    "inci_name": "Glycerin",
-    "SupplierName": "Lopez Inc",
-    "Price": 142.72,
-    "LeadTime": 23,
-    "DaysOnHand": 1,
-    "TechnicalSpecs": {
-      "density": 2.3,
-      "tensile_strength": 515,
-      "grade": "Sc19"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": true,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "1309-42-8",
-    "inci_name": "Magnesium Hydroxide",
-    "SupplierName": "Robertson, Mcdowell and Logan",
-    "Price": 293.81,
-    "LeadTime": 54,
-    "DaysOnHand": 24,
-    "TechnicalSpecs": {
-      "density": 9.61,
-      "tensile_strength": 434,
-      "grade": "hu65"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": true,
-      "halal_cert": false,
-      "kosher_cert": true,
-      "organic_cert": false,
-      "iso_cert": true,
-      "coa": false,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "77-92-9",
-    "inci_name": "Citric Acid",
-    "SupplierName": "Small, Campos and Gilbert",
-    "Price": 19.63,
-    "LeadTime": 59,
-    "DaysOnHand": 22,
-    "TechnicalSpecs": {
-      "density": 7.19,
-      "tensile_strength": 658,
-      "grade": "BI63"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": true,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "1327-41-9",
-    "inci_name": "Aluminum Chlorohydrate",
-    "SupplierName": "Rowland-Franklin",
-    "Price": 261.56,
-    "LeadTime": 17,
-    "DaysOnHand": 18,
-    "TechnicalSpecs": {
-      "density": 4.78,
-      "tensile_strength": 396,
-      "grade": "Pv79"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": true,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "122-99-6",
-    "inci_name": "Phenoxyethanol",
-    "SupplierName": "Lawrence-Barnett",
-    "Price": 107.44,
-    "LeadTime": 49,
-    "DaysOnHand": 16,
-    "TechnicalSpecs": {
-      "density": 6.31,
-      "tensile_strength": 750,
-      "grade": "sg23"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": false,
-      "non_gmo_cert": false,
-      "animal_testing_statement": false,
-      "allergen_statement": false,
-      "halal_cert": false,
-      "kosher_cert": false,
-      "organic_cert": true,
-      "iso_cert": false,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "77-92-9",
-    "inci_name": "Citric Acid",
-    "SupplierName": "Weaver-Watts",
-    "Price": 29.13,
-    "LeadTime": 42,
-    "DaysOnHand": 14,
-    "TechnicalSpecs": {
-      "density": 6.89,
-      "tensile_strength": 534,
-      "grade": "Dt93"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": true,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "1309-42-8",
-    "inci_name": "Magnesium Hydroxide",
-    "SupplierName": "Jones, Hunter and Cooley",
-    "Price": 114.59,
-    "LeadTime": 34,
-    "DaysOnHand": 28,
-    "TechnicalSpecs": {
-      "density": 6.63,
-      "tensile_strength": 242,
-      "grade": "TF41"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": false,
-      "non_gmo_cert": false,
-      "animal_testing_statement": false,
-      "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": false,
-      "organic_cert": false,
-      "iso_cert": false,
-      "coa": true,
-      "msds": false
-    }
-  },
-  {
-    "cas_number": "122-99-6",
-    "inci_name": "Phenoxyethanol",
-    "SupplierName": "Davis, Moore and Martin",
-    "Price": 468.28,
-    "LeadTime": 27,
-    "DaysOnHand": 7,
-    "TechnicalSpecs": {
-      "density": 6.21,
-      "tensile_strength": 415,
-      "grade": "Ab45"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": true,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "1327-41-9",
-    "inci_name": "Aluminum Chlorohydrate",
-    "SupplierName": "Turner-Baker",
-    "Price": 447.47,
-    "LeadTime": 50,
-    "DaysOnHand": 17,
-    "TechnicalSpecs": {
-      "density": 6.22,
-      "tensile_strength": 404,
-      "grade": "AD59"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": false,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "1327-41-9",
-    "inci_name": "Aluminum Chlorohydrate",
-    "SupplierName": "Johnson PLC",
-    "Price": 157.65,
-    "LeadTime": 6,
+    "SupplierName": "Snyder Group",
+    "Price": 234.03,
+    "LeadTime": 38,
     "DaysOnHand": 5,
     "TechnicalSpecs": {
-      "density": 7.61,
-      "tensile_strength": 395,
-      "grade": "xL96"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": false,
-      "non_gmo_cert": false,
-      "animal_testing_statement": false,
-      "allergen_statement": true,
-      "halal_cert": false,
-      "kosher_cert": false,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "122-99-6",
-    "inci_name": "Phenoxyethanol",
-    "SupplierName": "Dominguez-Barajas",
-    "Price": 189.56,
-    "LeadTime": 17,
-    "DaysOnHand": 28,
-    "TechnicalSpecs": {
-      "density": 0.59,
-      "tensile_strength": 157,
-      "grade": "AQ50"
+      "density": 6.57,
+      "tensile_strength": 714,
+      "grade": "dT15"
     },
     "compliance_package": {
       "sds": false,
       "tech_drawing": true,
-      "non_gmo_cert": false,
-      "animal_testing_statement": false,
-      "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": false,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "1309-42-8",
-    "inci_name": "Magnesium Hydroxide",
-    "SupplierName": "Jenkins Ltd",
-    "Price": 234.48,
-    "LeadTime": 54,
-    "DaysOnHand": 27,
-    "TechnicalSpecs": {
-      "density": 1.12,
-      "tensile_strength": 517,
-      "grade": "xp86"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": true,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "9002-88-4",
-    "inci_name": "Polyethylene",
-    "SupplierName": "Williams LLC",
-    "Price": 205.66,
-    "LeadTime": 24,
-    "DaysOnHand": 5,
-    "TechnicalSpecs": {
-      "density": 1.2,
-      "tensile_strength": 50,
-      "grade": "HDPE"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": false,
-      "halal_cert": false,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": false,
-      "msds": false
-    }
-  },
-  {
-    "cas_number": "7732-18-5",
-    "inci_name": "Water",
-    "SupplierName": "Hill Ltd",
-    "Price": 93.2,
-    "LeadTime": 55,
-    "DaysOnHand": 22,
-    "TechnicalSpecs": {
-      "density": 6.09,
-      "tensile_strength": 733,
-      "grade": "md57"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": false,
-      "non_gmo_cert": true,
-      "animal_testing_statement": false,
-      "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": false,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "56-81-5",
-    "inci_name": "Glycerin",
-    "SupplierName": "Thompson, Conley and Russell",
-    "Price": 233.5,
-    "LeadTime": 39,
-    "DaysOnHand": 14,
-    "TechnicalSpecs": {
-      "density": 3.43,
-      "tensile_strength": 708,
-      "grade": "vY96"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": false,
-      "halal_cert": false,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": false,
-      "msds": false
-    }
-  },
-  {
-    "cas_number": "1327-41-9",
-    "inci_name": "Aluminum Chlorohydrate",
-    "SupplierName": "Watts and Sons",
-    "Price": 92.17,
-    "LeadTime": 27,
-    "DaysOnHand": 12,
-    "TechnicalSpecs": {
-      "density": 1.64,
-      "tensile_strength": 358,
-      "grade": "Rv29"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": true,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "7429-90-5",
-    "inci_name": "Aluminum",
-    "SupplierName": "Bowers, Campbell and Ritter",
-    "Price": 310.54,
-    "LeadTime": 43,
-    "DaysOnHand": 21,
-    "TechnicalSpecs": {
-      "density": 2.7,
-      "tensile_strength": 310,
-      "grade": "6061-T6"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": false,
-      "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": false,
-      "organic_cert": true,
-      "iso_cert": false,
-      "coa": false,
-      "msds": false
-    }
-  },
-  {
-    "cas_number": "59-02-9",
-    "inci_name": "Tocopherol",
-    "SupplierName": "Moore, Cooper and Rodriguez",
-    "Price": 282.84,
-    "LeadTime": 45,
-    "DaysOnHand": 12,
-    "TechnicalSpecs": {
-      "density": 8.62,
-      "tensile_strength": 456,
-      "grade": "hJ54"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": true,
-      "non_gmo_cert": false,
-      "animal_testing_statement": true,
-      "allergen_statement": false,
-      "halal_cert": false,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": false,
-      "coa": false,
-      "msds": false
-    }
-  },
-  {
-    "cas_number": "1327-41-9",
-    "inci_name": "Aluminum Chlorohydrate",
-    "SupplierName": "Gutierrez-Shaw",
-    "Price": 277.45,
-    "LeadTime": 29,
-    "DaysOnHand": 20,
-    "TechnicalSpecs": {
-      "density": 4.85,
-      "tensile_strength": 604,
-      "grade": "qz28"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": true,
-      "non_gmo_cert": false,
-      "animal_testing_statement": false,
-      "allergen_statement": true,
-      "halal_cert": false,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "7429-90-5",
-    "inci_name": "Aluminum",
-    "SupplierName": "Allen-Collins",
-    "Price": 314.38,
-    "LeadTime": 40,
-    "DaysOnHand": 2,
-    "TechnicalSpecs": {
-      "density": 2.7,
-      "tensile_strength": 310,
-      "grade": "6061-T6"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": false,
-      "animal_testing_statement": true,
-      "allergen_statement": false,
-      "halal_cert": false,
-      "kosher_cert": false,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": false,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "77-92-9",
-    "inci_name": "Citric Acid",
-    "SupplierName": "Schaefer, Price and Marshall",
-    "Price": 428.81,
-    "LeadTime": 37,
-    "DaysOnHand": 5,
-    "TechnicalSpecs": {
-      "density": 3.8,
-      "tensile_strength": 69,
-      "grade": "mX70"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": false,
-      "non_gmo_cert": false,
-      "animal_testing_statement": true,
-      "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": false,
-      "organic_cert": false,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "1309-42-8",
-    "inci_name": "Magnesium Hydroxide",
-    "SupplierName": "Cantrell-Jordan",
-    "Price": 102.01,
-    "LeadTime": 50,
-    "DaysOnHand": 10,
-    "TechnicalSpecs": {
-      "density": 0.54,
-      "tensile_strength": 307,
-      "grade": "vS84"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": true,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "77-92-9",
-    "inci_name": "Citric Acid",
-    "SupplierName": "Pace-Moore",
-    "Price": 308.78,
-    "LeadTime": 28,
-    "DaysOnHand": 16,
-    "TechnicalSpecs": {
-      "density": 4.04,
-      "tensile_strength": 143,
-      "grade": "lU06"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": true,
-      "non_gmo_cert": false,
-      "animal_testing_statement": true,
-      "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": false,
-      "iso_cert": false,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "56-81-5",
-    "inci_name": "Glycerin",
-    "SupplierName": "Torres, Hopkins and Terrell",
-    "Price": 147.89,
-    "LeadTime": 45,
-    "DaysOnHand": 22,
-    "TechnicalSpecs": {
-      "density": 1.12,
-      "tensile_strength": 256,
-      "grade": "hA16"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": false,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": true,
-      "halal_cert": false,
-      "kosher_cert": true,
-      "organic_cert": false,
-      "iso_cert": false,
-      "coa": false,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "77-92-9",
-    "inci_name": "Citric Acid",
-    "SupplierName": "Jefferson Inc",
-    "Price": 24.47,
-    "LeadTime": 51,
-    "DaysOnHand": 21,
-    "TechnicalSpecs": {
-      "density": 9.46,
-      "tensile_strength": 397,
-      "grade": "Mc85"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": false,
       "non_gmo_cert": true,
       "animal_testing_statement": false,
       "allergen_statement": true,
@@ -749,17 +47,17 @@
       "kosher_cert": true,
       "organic_cert": false,
       "iso_cert": false,
-      "coa": true,
+      "coa": false,
       "msds": false
     }
   },
   {
     "cas_number": "7439-89-6",
     "inci_name": "Iron",
-    "SupplierName": "Bailey, Meyer and Zavala",
-    "Price": 30.9,
-    "LeadTime": 22,
-    "DaysOnHand": 17,
+    "SupplierName": "Arnold Inc",
+    "Price": 116.38,
+    "LeadTime": 40,
+    "DaysOnHand": 23,
     "TechnicalSpecs": {
       "density": 7.85,
       "tensile_strength": 400,
@@ -771,110 +69,6 @@
       "non_gmo_cert": true,
       "animal_testing_statement": true,
       "allergen_statement": true,
-      "halal_cert": false,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": false
-    }
-  },
-  {
-    "cas_number": "1327-41-9",
-    "inci_name": "Aluminum Chlorohydrate",
-    "SupplierName": "Gonzalez, Lucas and King",
-    "Price": 162.3,
-    "LeadTime": 25,
-    "DaysOnHand": 6,
-    "TechnicalSpecs": {
-      "density": 7.63,
-      "tensile_strength": 795,
-      "grade": "uA73"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": false,
-      "non_gmo_cert": false,
-      "animal_testing_statement": true,
-      "allergen_statement": false,
-      "halal_cert": false,
-      "kosher_cert": true,
-      "organic_cert": false,
-      "iso_cert": true,
-      "coa": false,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "7732-18-5",
-    "inci_name": "Water",
-    "SupplierName": "Valentine and Sons",
-    "Price": 288.65,
-    "LeadTime": 31,
-    "DaysOnHand": 18,
-    "TechnicalSpecs": {
-      "density": 5.94,
-      "tensile_strength": 480,
-      "grade": "cl48"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": false,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": true,
-      "coa": true,
-      "msds": false
-    }
-  },
-  {
-    "cas_number": "1309-42-8",
-    "inci_name": "Magnesium Hydroxide",
-    "SupplierName": "Choi Inc",
-    "Price": 317.59,
-    "LeadTime": 43,
-    "DaysOnHand": 2,
-    "TechnicalSpecs": {
-      "density": 0.94,
-      "tensile_strength": 90,
-      "grade": "wu01"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": false,
-      "non_gmo_cert": false,
-      "animal_testing_statement": false,
-      "allergen_statement": false,
-      "halal_cert": false,
-      "kosher_cert": true,
-      "organic_cert": false,
-      "iso_cert": true,
-      "coa": true,
-      "msds": false
-    }
-  },
-  {
-    "cas_number": "1309-42-8",
-    "inci_name": "Magnesium Hydroxide",
-    "SupplierName": "Lewis-Nichols",
-    "Price": 171.56,
-    "LeadTime": 38,
-    "DaysOnHand": 4,
-    "TechnicalSpecs": {
-      "density": 7.59,
-      "tensile_strength": 182,
-      "grade": "Ky41"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": false,
-      "non_gmo_cert": true,
-      "animal_testing_statement": false,
-      "allergen_statement": false,
       "halal_cert": true,
       "kosher_cert": true,
       "organic_cert": false,
@@ -884,123 +78,71 @@
     }
   },
   {
-    "cas_number": "1327-41-9",
-    "inci_name": "Aluminum Chlorohydrate",
-    "SupplierName": "Carr-Howard",
-    "Price": 108.73,
-    "LeadTime": 59,
-    "DaysOnHand": 4,
+    "cas_number": "9002-88-4",
+    "inci_name": "Polyethylene",
+    "SupplierName": "Jones PLC",
+    "Price": 307.85,
+    "LeadTime": 24,
+    "DaysOnHand": 7,
     "TechnicalSpecs": {
-      "density": 4.14,
-      "tensile_strength": 540,
-      "grade": "BV41"
+      "density": 1.2,
+      "tensile_strength": 50,
+      "grade": "HDPE"
     },
     "compliance_package": {
       "sds": true,
-      "tech_drawing": false,
-      "non_gmo_cert": false,
-      "animal_testing_statement": true,
-      "allergen_statement": false,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": false,
+      "allergen_statement": true,
       "halal_cert": false,
       "kosher_cert": true,
       "organic_cert": false,
       "iso_cert": true,
       "coa": false,
-      "msds": false
+      "msds": true
     }
   },
   {
-    "cas_number": "7732-18-5",
-    "inci_name": "Water",
-    "SupplierName": "Richards Group",
-    "Price": 489.01,
-    "LeadTime": 50,
-    "DaysOnHand": 1,
+    "cas_number": "64-17-5",
+    "inci_name": "Ethanol",
+    "SupplierName": "Harrison Group",
+    "Price": 151.48,
+    "LeadTime": 23,
+    "DaysOnHand": 12,
     "TechnicalSpecs": {
-      "density": 2.09,
-      "tensile_strength": 520,
-      "grade": "yS52"
+      "density": 1.97,
+      "tensile_strength": 333,
+      "grade": "uY37"
     },
     "compliance_package": {
-      "sds": true,
-      "tech_drawing": false,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
+      "sds": false,
+      "tech_drawing": true,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
       "allergen_statement": false,
-      "halal_cert": true,
+      "halal_cert": false,
       "kosher_cert": true,
-      "organic_cert": false,
+      "organic_cert": true,
       "iso_cert": true,
-      "coa": false,
-      "msds": false
+      "coa": true,
+      "msds": true
     }
   },
   {
     "cas_number": "77-92-9",
     "inci_name": "Citric Acid",
-    "SupplierName": "King LLC",
-    "Price": 75.65,
+    "SupplierName": "Miller Ltd",
+    "Price": 309.15,
     "LeadTime": 52,
-    "DaysOnHand": 16,
+    "DaysOnHand": 14,
     "TechnicalSpecs": {
-      "density": 0.73,
-      "tensile_strength": 647,
-      "grade": "Pv55"
+      "density": 8.76,
+      "tensile_strength": 331,
+      "grade": "Aq61"
     },
     "compliance_package": {
       "sds": true,
-      "tech_drawing": false,
-      "non_gmo_cert": false,
-      "animal_testing_statement": false,
-      "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": false,
-      "iso_cert": false,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "122-99-6",
-    "inci_name": "Phenoxyethanol",
-    "SupplierName": "Velasquez Inc",
-    "Price": 38.68,
-    "LeadTime": 28,
-    "DaysOnHand": 20,
-    "TechnicalSpecs": {
-      "density": 7.1,
-      "tensile_strength": 419,
-      "grade": "yL06"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": true,
-      "animal_testing_statement": false,
-      "allergen_statement": true,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": false,
-      "coa": false,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "122-99-6",
-    "inci_name": "Phenoxyethanol",
-    "SupplierName": "Kramer PLC",
-    "Price": 210.35,
-    "LeadTime": 36,
-    "DaysOnHand": 5,
-    "TechnicalSpecs": {
-      "density": 0.76,
-      "tensile_strength": 675,
-      "grade": "ot85"
-    },
-    "compliance_package": {
-      "sds": false,
       "tech_drawing": true,
       "non_gmo_cert": false,
       "animal_testing_statement": true,
@@ -1008,158 +150,366 @@
       "halal_cert": false,
       "kosher_cert": false,
       "organic_cert": true,
-      "iso_cert": false,
+      "iso_cert": true,
       "coa": true,
       "msds": true
+    }
+  },
+  {
+    "cas_number": "64-17-5",
+    "inci_name": "Ethanol",
+    "SupplierName": "Nash, Knight and Burns",
+    "Price": 405.1,
+    "LeadTime": 6,
+    "DaysOnHand": 8,
+    "TechnicalSpecs": {
+      "density": 8.17,
+      "tensile_strength": 427,
+      "grade": "eP85"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": false,
+      "allergen_statement": false,
+      "halal_cert": true,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": true,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "56-81-5",
+    "inci_name": "Glycerin",
+    "SupplierName": "Ryan-Bailey",
+    "Price": 250.78,
+    "LeadTime": 46,
+    "DaysOnHand": 21,
+    "TechnicalSpecs": {
+      "density": 7.73,
+      "tensile_strength": 180,
+      "grade": "ej93"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": true,
+      "non_gmo_cert": false,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": true,
+      "msds": false
     }
   },
   {
     "cas_number": "1309-42-8",
     "inci_name": "Magnesium Hydroxide",
-    "SupplierName": "Sanchez-Lopez",
-    "Price": 230.37,
-    "LeadTime": 27,
-    "DaysOnHand": 3,
+    "SupplierName": "Garcia, Wood and Campbell",
+    "Price": 469.51,
+    "LeadTime": 46,
+    "DaysOnHand": 20,
     "TechnicalSpecs": {
-      "density": 2.08,
-      "tensile_strength": 696,
-      "grade": "vL97"
+      "density": 6.45,
+      "tensile_strength": 354,
+      "grade": "rf41"
     },
     "compliance_package": {
       "sds": true,
-      "tech_drawing": false,
+      "tech_drawing": true,
       "non_gmo_cert": false,
       "animal_testing_statement": true,
       "allergen_statement": false,
       "halal_cert": false,
       "kosher_cert": true,
-      "organic_cert": false,
-      "iso_cert": false,
+      "organic_cert": true,
+      "iso_cert": true,
       "coa": true,
       "msds": true
     }
   },
   {
-    "cas_number": "1327-41-9",
-    "inci_name": "Aluminum Chlorohydrate",
-    "SupplierName": "Bailey-Taylor",
-    "Price": 139.0,
-    "LeadTime": 11,
-    "DaysOnHand": 18,
+    "cas_number": "9002-88-4",
+    "inci_name": "Polyethylene",
+    "SupplierName": "Hudson, Romero and Gaines",
+    "Price": 451.79,
+    "LeadTime": 50,
+    "DaysOnHand": 29,
     "TechnicalSpecs": {
-      "density": 4.02,
-      "tensile_strength": 694,
-      "grade": "lm37"
+      "density": 1.2,
+      "tensile_strength": 50,
+      "grade": "HDPE"
     },
     "compliance_package": {
-      "sds": false,
-      "tech_drawing": true,
+      "sds": true,
+      "tech_drawing": false,
       "non_gmo_cert": true,
       "animal_testing_statement": false,
       "allergen_statement": true,
       "halal_cert": true,
       "kosher_cert": false,
       "organic_cert": true,
-      "iso_cert": false,
+      "iso_cert": true,
       "coa": false,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "59-02-9",
+    "inci_name": "Tocopherol",
+    "SupplierName": "Molina-Cole",
+    "Price": 434.13,
+    "LeadTime": 15,
+    "DaysOnHand": 22,
+    "TechnicalSpecs": {
+      "density": 5.15,
+      "tensile_strength": 305,
+      "grade": "EZ69"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": false,
+      "non_gmo_cert": false,
+      "animal_testing_statement": true,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": false,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "1309-42-8",
+    "inci_name": "Magnesium Hydroxide",
+    "SupplierName": "Holmes LLC",
+    "Price": 150.15,
+    "LeadTime": 25,
+    "DaysOnHand": 4,
+    "TechnicalSpecs": {
+      "density": 9.5,
+      "tensile_strength": 734,
+      "grade": "Go38"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": false,
+      "non_gmo_cert": false,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
+      "halal_cert": true,
+      "kosher_cert": false,
+      "organic_cert": false,
+      "iso_cert": false,
+      "coa": true,
       "msds": false
     }
   },
   {
     "cas_number": "122-99-6",
     "inci_name": "Phenoxyethanol",
-    "SupplierName": "Donovan, Cain and Orr",
-    "Price": 65.39,
+    "SupplierName": "Johnson, Evans and Roberts",
+    "Price": 116.11,
+    "LeadTime": 44,
+    "DaysOnHand": 22,
+    "TechnicalSpecs": {
+      "density": 4.04,
+      "tensile_strength": 444,
+      "grade": "Yo73"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": false,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": false,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "7732-18-5",
+    "inci_name": "Water",
+    "SupplierName": "Franco, Waters and Campos",
+    "Price": 82.95,
+    "LeadTime": 42,
+    "DaysOnHand": 16,
+    "TechnicalSpecs": {
+      "density": 3.76,
+      "tensile_strength": 587,
+      "grade": "bi18"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
+      "halal_cert": true,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": true,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "59-02-9",
+    "inci_name": "Tocopherol",
+    "SupplierName": "Ruiz-Jones",
+    "Price": 247.09,
+    "LeadTime": 40,
+    "DaysOnHand": 15,
+    "TechnicalSpecs": {
+      "density": 3.3,
+      "tensile_strength": 335,
+      "grade": "sI67"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": false,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": true,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": false,
+      "iso_cert": true,
+      "coa": false,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "56-81-5",
+    "inci_name": "Glycerin",
+    "SupplierName": "Alexander-Moore",
+    "Price": 91.33,
+    "LeadTime": 48,
+    "DaysOnHand": 23,
+    "TechnicalSpecs": {
+      "density": 1.8,
+      "tensile_strength": 725,
+      "grade": "jR52"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": false,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": true,
+      "halal_cert": false,
+      "kosher_cert": false,
+      "organic_cert": false,
+      "iso_cert": false,
+      "coa": false,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "122-99-6",
+    "inci_name": "Phenoxyethanol",
+    "SupplierName": "Miller and Sons",
+    "Price": 85.43,
+    "LeadTime": 17,
+    "DaysOnHand": 1,
+    "TechnicalSpecs": {
+      "density": 0.66,
+      "tensile_strength": 302,
+      "grade": "hI64"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": true,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": true,
+      "halal_cert": false,
+      "kosher_cert": false,
+      "organic_cert": true,
+      "iso_cert": false,
+      "coa": true,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "56-81-5",
+    "inci_name": "Glycerin",
+    "SupplierName": "Rush Ltd",
+    "Price": 28.45,
+    "LeadTime": 57,
+    "DaysOnHand": 27,
+    "TechnicalSpecs": {
+      "density": 1.21,
+      "tensile_strength": 442,
+      "grade": "QT80"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
+      "halal_cert": true,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": true,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "56-81-5",
+    "inci_name": "Glycerin",
+    "SupplierName": "Patel, Smith and Swanson",
+    "Price": 184.56,
+    "LeadTime": 57,
+    "DaysOnHand": 17,
+    "TechnicalSpecs": {
+      "density": 6.73,
+      "tensile_strength": 440,
+      "grade": "jf56"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": true,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": true,
+      "halal_cert": false,
+      "kosher_cert": false,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": false,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "7429-90-5",
+    "inci_name": "Aluminum",
+    "SupplierName": "Myers, Mullen and Torres",
+    "Price": 326.92,
     "LeadTime": 60,
     "DaysOnHand": 20,
     "TechnicalSpecs": {
-      "density": 1.06,
-      "tensile_strength": 215,
-      "grade": "oL25"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": true,
-      "non_gmo_cert": false,
-      "animal_testing_statement": false,
-      "allergen_statement": true,
-      "halal_cert": false,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": false,
-      "coa": true,
-      "msds": false
-    }
-  },
-  {
-    "cas_number": "7439-89-6",
-    "inci_name": "Iron",
-    "SupplierName": "Robinson-Benton",
-    "Price": 29.3,
-    "LeadTime": 28,
-    "DaysOnHand": 9,
-    "TechnicalSpecs": {
-      "density": 7.85,
-      "tensile_strength": 400,
-      "grade": "A36"
+      "density": 2.7,
+      "tensile_strength": 310,
+      "grade": "6061-T6"
     },
     "compliance_package": {
       "sds": true,
       "tech_drawing": true,
       "non_gmo_cert": false,
       "animal_testing_statement": false,
-      "allergen_statement": false,
-      "halal_cert": false,
-      "kosher_cert": true,
-      "organic_cert": false,
-      "iso_cert": true,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "64-17-5",
-    "inci_name": "Ethanol",
-    "SupplierName": "Hansen, Davis and Newman",
-    "Price": 294.43,
-    "LeadTime": 19,
-    "DaysOnHand": 16,
-    "TechnicalSpecs": {
-      "density": 7.95,
-      "tensile_strength": 107,
-      "grade": "EE04"
-    },
-    "compliance_package": {
-      "sds": false,
-      "tech_drawing": false,
-      "non_gmo_cert": true,
-      "animal_testing_statement": true,
-      "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": false,
-      "organic_cert": false,
-      "iso_cert": false,
-      "coa": true,
-      "msds": true
-    }
-  },
-  {
-    "cas_number": "56-81-5",
-    "inci_name": "Glycerin",
-    "SupplierName": "Roberts-Shea",
-    "Price": 63.33,
-    "LeadTime": 35,
-    "DaysOnHand": 20,
-    "TechnicalSpecs": {
-      "density": 7.59,
-      "tensile_strength": 495,
-      "grade": "CZ24"
-    },
-    "compliance_package": {
-      "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": false,
-      "animal_testing_statement": true,
       "allergen_statement": false,
       "halal_cert": false,
       "kosher_cert": false,
@@ -1170,27 +520,53 @@
     }
   },
   {
-    "cas_number": "9002-88-4",
-    "inci_name": "Polyethylene",
-    "SupplierName": "Aguilar Group",
-    "Price": 486.1,
-    "LeadTime": 9,
-    "DaysOnHand": 9,
+    "cas_number": "1309-42-8",
+    "inci_name": "Magnesium Hydroxide",
+    "SupplierName": "Barton-Gibson",
+    "Price": 397.32,
+    "LeadTime": 25,
+    "DaysOnHand": 3,
     "TechnicalSpecs": {
-      "density": 1.2,
-      "tensile_strength": 50,
-      "grade": "HDPE"
+      "density": 4.06,
+      "tensile_strength": 576,
+      "grade": "SQ48"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
+      "halal_cert": true,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": true,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "56-81-5",
+    "inci_name": "Glycerin",
+    "SupplierName": "Cline-Hale",
+    "Price": 486.65,
+    "LeadTime": 32,
+    "DaysOnHand": 23,
+    "TechnicalSpecs": {
+      "density": 2.97,
+      "tensile_strength": 61,
+      "grade": "jM73"
     },
     "compliance_package": {
       "sds": false,
       "tech_drawing": false,
-      "non_gmo_cert": true,
-      "animal_testing_statement": false,
-      "allergen_statement": false,
+      "non_gmo_cert": false,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
       "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": true,
-      "iso_cert": false,
+      "kosher_cert": false,
+      "organic_cert": false,
+      "iso_cert": true,
       "coa": true,
       "msds": true
     }
@@ -1198,40 +574,144 @@
   {
     "cas_number": "59-02-9",
     "inci_name": "Tocopherol",
-    "SupplierName": "Bowers, Maldonado and Reynolds",
-    "Price": 337.66,
-    "LeadTime": 20,
-    "DaysOnHand": 24,
+    "SupplierName": "Becker and Sons",
+    "Price": 11.72,
+    "LeadTime": 29,
+    "DaysOnHand": 25,
     "TechnicalSpecs": {
-      "density": 8.65,
-      "tensile_strength": 735,
-      "grade": "EF70"
+      "density": 8.97,
+      "tensile_strength": 280,
+      "grade": "xZ59"
     },
     "compliance_package": {
-      "sds": true,
+      "sds": false,
       "tech_drawing": false,
       "non_gmo_cert": false,
       "animal_testing_statement": false,
       "allergen_statement": false,
-      "halal_cert": true,
-      "kosher_cert": true,
-      "organic_cert": false,
-      "iso_cert": false,
-      "coa": true,
+      "halal_cert": false,
+      "kosher_cert": false,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": false,
       "msds": true
+    }
+  },
+  {
+    "cas_number": "77-92-9",
+    "inci_name": "Citric Acid",
+    "SupplierName": "Strong-Collins",
+    "Price": 98.26,
+    "LeadTime": 29,
+    "DaysOnHand": 20,
+    "TechnicalSpecs": {
+      "density": 4.78,
+      "tensile_strength": 667,
+      "grade": "ln13"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": false,
+      "non_gmo_cert": true,
+      "animal_testing_statement": false,
+      "allergen_statement": true,
+      "halal_cert": false,
+      "kosher_cert": false,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": false,
+      "msds": false
     }
   },
   {
     "cas_number": "64-17-5",
     "inci_name": "Ethanol",
-    "SupplierName": "Bennett, Maynard and Lindsey",
-    "Price": 306.81,
-    "LeadTime": 55,
+    "SupplierName": "Velez, Webb and Martin",
+    "Price": 164.98,
+    "LeadTime": 17,
+    "DaysOnHand": 15,
+    "TechnicalSpecs": {
+      "density": 9.58,
+      "tensile_strength": 320,
+      "grade": "Ot34"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": false,
+      "non_gmo_cert": true,
+      "animal_testing_statement": false,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": false,
+      "iso_cert": false,
+      "coa": true,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "122-99-6",
+    "inci_name": "Phenoxyethanol",
+    "SupplierName": "Allen Ltd",
+    "Price": 196.21,
+    "LeadTime": 33,
+    "DaysOnHand": 24,
+    "TechnicalSpecs": {
+      "density": 8.06,
+      "tensile_strength": 597,
+      "grade": "Pf55"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": false,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": false,
+      "iso_cert": true,
+      "coa": true,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "1327-41-9",
+    "inci_name": "Aluminum Chlorohydrate",
+    "SupplierName": "Davenport-King",
+    "Price": 18.66,
+    "LeadTime": 52,
     "DaysOnHand": 18,
     "TechnicalSpecs": {
-      "density": 9.26,
-      "tensile_strength": 137,
-      "grade": "XJ76"
+      "density": 7.37,
+      "tensile_strength": 523,
+      "grade": "uY43"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
+      "halal_cert": true,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": false,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "7429-90-5",
+    "inci_name": "Aluminum",
+    "SupplierName": "James-Melton",
+    "Price": 320.69,
+    "LeadTime": 28,
+    "DaysOnHand": 2,
+    "TechnicalSpecs": {
+      "density": 2.7,
+      "tensile_strength": 310,
+      "grade": "6061-T6"
     },
     "compliance_package": {
       "sds": true,
@@ -1241,33 +721,33 @@
       "allergen_statement": false,
       "halal_cert": false,
       "kosher_cert": false,
-      "organic_cert": true,
+      "organic_cert": false,
       "iso_cert": true,
-      "coa": true,
+      "coa": false,
       "msds": true
     }
   },
   {
-    "cas_number": "122-99-6",
-    "inci_name": "Phenoxyethanol",
-    "SupplierName": "Mcdaniel LLC",
-    "Price": 300.21,
-    "LeadTime": 32,
-    "DaysOnHand": 11,
+    "cas_number": "59-02-9",
+    "inci_name": "Tocopherol",
+    "SupplierName": "Harmon-Fletcher",
+    "Price": 141.59,
+    "LeadTime": 37,
+    "DaysOnHand": 10,
     "TechnicalSpecs": {
-      "density": 4.15,
-      "tensile_strength": 318,
-      "grade": "sN24"
+      "density": 1.15,
+      "tensile_strength": 523,
+      "grade": "AS51"
     },
     "compliance_package": {
       "sds": true,
-      "tech_drawing": true,
-      "non_gmo_cert": false,
-      "animal_testing_statement": false,
-      "allergen_statement": true,
+      "tech_drawing": false,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": false,
       "halal_cert": false,
       "kosher_cert": false,
-      "organic_cert": true,
+      "organic_cert": false,
       "iso_cert": false,
       "coa": true,
       "msds": false
@@ -1276,26 +756,546 @@
   {
     "cas_number": "1327-41-9",
     "inci_name": "Aluminum Chlorohydrate",
-    "SupplierName": "Schultz PLC",
-    "Price": 345.7,
-    "LeadTime": 29,
-    "DaysOnHand": 9,
+    "SupplierName": "Lewis and Sons",
+    "Price": 34.05,
+    "LeadTime": 56,
+    "DaysOnHand": 15,
     "TechnicalSpecs": {
-      "density": 3.22,
-      "tensile_strength": 748,
-      "grade": "Ou58"
+      "density": 9.39,
+      "tensile_strength": 470,
+      "grade": "wj47"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": false,
+      "allergen_statement": true,
+      "halal_cert": true,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": false,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "59-02-9",
+    "inci_name": "Tocopherol",
+    "SupplierName": "Jacobs, Armstrong and Hill",
+    "Price": 102.13,
+    "LeadTime": 58,
+    "DaysOnHand": 23,
+    "TechnicalSpecs": {
+      "density": 2.21,
+      "tensile_strength": 415,
+      "grade": "ML36"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": true,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": true,
+      "halal_cert": true,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": true,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "77-92-9",
+    "inci_name": "Citric Acid",
+    "SupplierName": "Garza, Robinson and Barnett",
+    "Price": 65.59,
+    "LeadTime": 37,
+    "DaysOnHand": 18,
+    "TechnicalSpecs": {
+      "density": 6.79,
+      "tensile_strength": 321,
+      "grade": "jZ12"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": true,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": true,
+      "halal_cert": true,
+      "kosher_cert": false,
+      "organic_cert": false,
+      "iso_cert": true,
+      "coa": false,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "77-92-9",
+    "inci_name": "Citric Acid",
+    "SupplierName": "Wagner PLC",
+    "Price": 188.53,
+    "LeadTime": 36,
+    "DaysOnHand": 16,
+    "TechnicalSpecs": {
+      "density": 9.75,
+      "tensile_strength": 577,
+      "grade": "CD51"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
+      "halal_cert": true,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": true,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "1327-41-9",
+    "inci_name": "Aluminum Chlorohydrate",
+    "SupplierName": "Hall, Rodriguez and Henderson",
+    "Price": 408.28,
+    "LeadTime": 46,
+    "DaysOnHand": 4,
+    "TechnicalSpecs": {
+      "density": 3.79,
+      "tensile_strength": 635,
+      "grade": "jC73"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": false,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": true,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": false,
+      "iso_cert": false,
+      "coa": false,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "122-99-6",
+    "inci_name": "Phenoxyethanol",
+    "SupplierName": "Hicks and Sons",
+    "Price": 466.09,
+    "LeadTime": 9,
+    "DaysOnHand": 10,
+    "TechnicalSpecs": {
+      "density": 7.0,
+      "tensile_strength": 698,
+      "grade": "hR00"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": false,
+      "non_gmo_cert": false,
+      "animal_testing_statement": true,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": false,
+      "organic_cert": false,
+      "iso_cert": true,
+      "coa": false,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "7732-18-5",
+    "inci_name": "Water",
+    "SupplierName": "Walton-Martinez",
+    "Price": 233.97,
+    "LeadTime": 9,
+    "DaysOnHand": 16,
+    "TechnicalSpecs": {
+      "density": 3.97,
+      "tensile_strength": 462,
+      "grade": "mh22"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": false,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": false,
+      "iso_cert": false,
+      "coa": true,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "1327-41-9",
+    "inci_name": "Aluminum Chlorohydrate",
+    "SupplierName": "Hill Ltd",
+    "Price": 350.68,
+    "LeadTime": 15,
+    "DaysOnHand": 20,
+    "TechnicalSpecs": {
+      "density": 4.43,
+      "tensile_strength": 108,
+      "grade": "Td99"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": false,
+      "non_gmo_cert": false,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": true,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "64-17-5",
+    "inci_name": "Ethanol",
+    "SupplierName": "Jackson-Maxwell",
+    "Price": 311.0,
+    "LeadTime": 53,
+    "DaysOnHand": 11,
+    "TechnicalSpecs": {
+      "density": 7.28,
+      "tensile_strength": 565,
+      "grade": "vB19"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": true,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": false,
+      "coa": false,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "77-92-9",
+    "inci_name": "Citric Acid",
+    "SupplierName": "Rivas Inc",
+    "Price": 378.22,
+    "LeadTime": 12,
+    "DaysOnHand": 2,
+    "TechnicalSpecs": {
+      "density": 8.44,
+      "tensile_strength": 285,
+      "grade": "bc07"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": true,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": false,
+      "iso_cert": false,
+      "coa": true,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "1327-41-9",
+    "inci_name": "Aluminum Chlorohydrate",
+    "SupplierName": "Ford Group",
+    "Price": 395.52,
+    "LeadTime": 58,
+    "DaysOnHand": 17,
+    "TechnicalSpecs": {
+      "density": 4.06,
+      "tensile_strength": 81,
+      "grade": "sL63"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": false,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": false,
+      "iso_cert": true,
+      "coa": true,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "1309-42-8",
+    "inci_name": "Magnesium Hydroxide",
+    "SupplierName": "Harris-Crosby",
+    "Price": 446.91,
+    "LeadTime": 29,
+    "DaysOnHand": 4,
+    "TechnicalSpecs": {
+      "density": 9.89,
+      "tensile_strength": 271,
+      "grade": "iE06"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": true,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": false,
+      "organic_cert": false,
+      "iso_cert": true,
+      "coa": true,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "59-02-9",
+    "inci_name": "Tocopherol",
+    "SupplierName": "Little-Schmitt",
+    "Price": 429.4,
+    "LeadTime": 46,
+    "DaysOnHand": 8,
+    "TechnicalSpecs": {
+      "density": 7.82,
+      "tensile_strength": 561,
+      "grade": "Pl15"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": false,
+      "iso_cert": true,
+      "coa": true,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "77-92-9",
+    "inci_name": "Citric Acid",
+    "SupplierName": "Hernandez and Sons",
+    "Price": 38.33,
+    "LeadTime": 40,
+    "DaysOnHand": 16,
+    "TechnicalSpecs": {
+      "density": 4.51,
+      "tensile_strength": 471,
+      "grade": "HZ21"
     },
     "compliance_package": {
       "sds": true,
       "tech_drawing": false,
       "non_gmo_cert": true,
-      "animal_testing_statement": false,
-      "allergen_statement": true,
+      "animal_testing_statement": true,
+      "allergen_statement": false,
       "halal_cert": false,
       "kosher_cert": false,
       "organic_cert": true,
-      "iso_cert": false,
+      "iso_cert": true,
+      "coa": true,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "59-02-9",
+    "inci_name": "Tocopherol",
+    "SupplierName": "Gordon-Davis",
+    "Price": 298.01,
+    "LeadTime": 55,
+    "DaysOnHand": 10,
+    "TechnicalSpecs": {
+      "density": 1.0,
+      "tensile_strength": 98,
+      "grade": "xq58"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": false,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": false,
+      "iso_cert": true,
       "coa": false,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "122-99-6",
+    "inci_name": "Phenoxyethanol",
+    "SupplierName": "Rocha-Fisher",
+    "Price": 81.75,
+    "LeadTime": 39,
+    "DaysOnHand": 10,
+    "TechnicalSpecs": {
+      "density": 9.35,
+      "tensile_strength": 330,
+      "grade": "zL24"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
+      "halal_cert": true,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": true,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "59-02-9",
+    "inci_name": "Tocopherol",
+    "SupplierName": "Castillo and Sons",
+    "Price": 240.08,
+    "LeadTime": 18,
+    "DaysOnHand": 30,
+    "TechnicalSpecs": {
+      "density": 2.16,
+      "tensile_strength": 544,
+      "grade": "YI02"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": false,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": false,
+      "halal_cert": true,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": false,
+      "coa": true,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "64-17-5",
+    "inci_name": "Ethanol",
+    "SupplierName": "Martin LLC",
+    "Price": 309.1,
+    "LeadTime": 25,
+    "DaysOnHand": 26,
+    "TechnicalSpecs": {
+      "density": 4.31,
+      "tensile_strength": 598,
+      "grade": "On31"
+    },
+    "compliance_package": {
+      "sds": false,
+      "tech_drawing": false,
+      "non_gmo_cert": false,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": true,
+      "msds": false
+    }
+  },
+  {
+    "cas_number": "77-92-9",
+    "inci_name": "Citric Acid",
+    "SupplierName": "Marquez-Green",
+    "Price": 161.41,
+    "LeadTime": 26,
+    "DaysOnHand": 21,
+    "TechnicalSpecs": {
+      "density": 5.09,
+      "tensile_strength": 717,
+      "grade": "pS73"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": true,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": true,
+      "halal_cert": true,
+      "kosher_cert": false,
+      "organic_cert": false,
+      "iso_cert": false,
+      "coa": true,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "7439-89-6",
+    "inci_name": "Iron",
+    "SupplierName": "Roberts and Sons",
+    "Price": 86.1,
+    "LeadTime": 40,
+    "DaysOnHand": 25,
+    "TechnicalSpecs": {
+      "density": 7.85,
+      "tensile_strength": 400,
+      "grade": "A36"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": false,
+      "non_gmo_cert": false,
+      "animal_testing_statement": false,
+      "allergen_statement": false,
+      "halal_cert": false,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": false,
+      "msds": true
+    }
+  },
+  {
+    "cas_number": "122-99-6",
+    "inci_name": "Phenoxyethanol",
+    "SupplierName": "Edwards-Ramsey",
+    "Price": 266.27,
+    "LeadTime": 44,
+    "DaysOnHand": 25,
+    "TechnicalSpecs": {
+      "density": 9.51,
+      "tensile_strength": 542,
+      "grade": "rs99"
+    },
+    "compliance_package": {
+      "sds": true,
+      "tech_drawing": true,
+      "non_gmo_cert": true,
+      "animal_testing_statement": true,
+      "allergen_statement": true,
+      "halal_cert": true,
+      "kosher_cert": true,
+      "organic_cert": true,
+      "iso_cert": true,
+      "coa": true,
       "msds": true
     }
   }
